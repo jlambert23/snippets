@@ -1,3 +1,6 @@
+/*
+ * Delay promise to take at least {delay} milliseconds before returning.
+ */
 const delayPromise = async <T>(
   promise: Promise<T>,
   delay: number
