@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# run git command on all repositories in a directory
 # use: gitc <directory> <command>
 gitc () {
   RED='\033[0;33m'
