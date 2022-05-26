@@ -18,7 +18,7 @@ eval "docker compose \
     -f ./docker/docker-compose.yml \
     -f ./docker/docker-compose.override.yml \
     $args \
-    -p bill-360 \
+    -p my-app \
     --ansi never \
     up -d"
     # config"
