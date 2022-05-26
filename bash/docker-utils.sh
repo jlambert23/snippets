@@ -17,7 +17,3 @@ function dclean() {
   docker ps -qa -f name=$1.api$ | xargs docker stop | xargs docker rm
   docker images | grep $1 | tail -n +1 | awk '{print $3}' | xargs docker image rm
 }
-
-function refresh() {
-  dclean $1 && bash app-run.sh
-}
