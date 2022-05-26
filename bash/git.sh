@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# use: gitc <directory> <command>
 gitc () {
   RED='\033[0;33m'
   NC='\033[0m' # No Color
